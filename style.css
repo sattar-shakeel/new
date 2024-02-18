@@ -1,0 +1,81 @@
+
+
+/* Header Start */
+.navbar .custmnavbar ul li a{
+    padding: 15px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    background-image: linear-gradient(90deg,#C1DEE8,#FBD9B9);
+}
+.banner .content{
+    padding: 50px;
+    margin-top: 2%;
+}
+.banner .content h1{
+    font-size: 90px;
+}
+.banner .content p{
+    font-size: 25px;
+}
+.banner img{
+    width: 100%;
+}
+/* banner end */
+
+/* card section star */
+.card{
+    padding: 10px;
+}
+
+
+/* card section end */
+
+/* Footer Start */
+.fotter{
+    padding: 30px;
+}
+
+.fotter .footerlist{
+    padding: 20px;
+}
+.fotter .Socialicon{
+    padding: 20px;
+}
+
+.fotter .footerlist a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+.fotter .Socialicon img{
+    width: 30px;
+}
+
+/* Footer End */
+
+@media screen and (max-width : 768px) {
+    .fotter .footerlist{
+        text-align: center;
+    }
+    .fotter .Socialicon{
+        text-align: center;
+    }
+    .banner .content{
+        text-align: center;
+    }
+    .banner .img{
+
+    }
+
+    
+}
+
